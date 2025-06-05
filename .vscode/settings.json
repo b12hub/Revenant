@@ -1,0 +1,22 @@
+{
+  "editor.fontFamily": "Fira Code, JetBrains Mono, monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "files.autoSave": "onFocusChange",
+  "mermaid.previewTheme": "default",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "baseUrl": "http://localhost:5678"
+    }
+  },
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "workbench.colorTheme": "Catppuccin Macchiato"
+}
