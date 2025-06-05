@@ -1,0 +1,21 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "humao.rest-client",
+        "bierner.markdown-mermaid",
+        "msjsdiag.debugger-for-chrome"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install && npx husky install"
+}
