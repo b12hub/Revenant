@@ -4,20 +4,18 @@
 
 Welcome to **REVENANT v4.1** – the Agentic AI interface that doesn’t just react... it dominates.
 
-Currently under construction, this project represents the bleeding edge of human–AI interaction — a frontend portal for orchestrating intelligent, autonomous agents capable of reasoning, adapting, and evolving in real-time environments.
-
-This repo contains the **Frontend Interface** of REVENANT, designed for performance, style, and reactive intelligence.
-
 ---
 
 ## 🧠 Project Philosophy
 
-REVENANT is more than a UI. It’s a visual operating system for autonomous agents. Built to embody concepts from:
+Revenant isn’t a chatbot.
 
-- 🌐 Agentic Architectures (n8n ,LangChain, AutoGPT, Ollama)
-- 🧠 LLM memory, planning, and decision-making
-- 💻 Developer-facing control panels and visual debuggers
-- ⚡ Realtime feedback, system status, and execution graphing
+Built from scratch with:
+- **Frontend** for visualizing agents and interactions.
+- **Backend** for agent execution, memory, API tools, and logs.
+- **AI Brain** using LLMs, LangChain/Ollama, vector stores, reasoning, and autonomy loops.
+
+It’s built to feel like something an AI would use to control the real world.
 
 ---
 
@@ -109,3 +107,45 @@ flowchart TD
     L_LoopAgent_MemoryAgent_0@{ animation: fast }
     L_FeedbackAgent_MemoryAgent_0@{ animation: fast }
     L_MemoryAgent_MasterAgent_0@{ animation: fast }
+```
+---
+## 🧠 Backend Agent Core
+Built with Node.js (soon to evolve to Python microservices for agents)
+
+Agent dispatcher
+
+Reasoning + Planning logic
+
+Tool registry and execution engine
+
+Persistent memory update service
+
+JSON-formatted audit logs
+
+---
+## LLM & Agentic AI Core
+Designed to support these tools:
+
+  LangChain / LangGraph: Planning + reasoning
+
+  Ollama: Local LLM deployment
+
+  Vector DB (ChromaDB / Pinecone): Long-term memory
+
+  n8n / Workflows: Tool automation (future)
+
+  Feedback Loops: Agent performance tuning
+
+Agent Features:
+
+  Dynamic memory recall
+
+  Reflection loop
+
+  Context-window optimizer
+
+  Adaptive behavior + skill selection
+
+
+
+
