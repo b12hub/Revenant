@@ -107,7 +107,10 @@ flowchart TD
     L_LoopAgent_MemoryAgent_0@{ animation: fast }
     L_FeedbackAgent_MemoryAgent_0@{ animation: fast }
     L_MemoryAgent_MasterAgent_0@{ animation: fast }
+
 ```
+If there are any shortcomings in this flowchart or if you would like to add something, please follow this link or if you want better visuals
+[flow-chart](https://www.mermaidchart.com/app/projects/692c00f3-9822-43a4-a810-1a939632f9b8/diagrams/c909e995-d0b3-4675-9251-ae2440952b2a/version/v0.1/edit)
 ---
 ## 🧠 Backend Agent Core
 Built with Node.js (soon to evolve to Python microservices for agents)
